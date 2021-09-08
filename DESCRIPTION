@@ -1,17 +1,15 @@
 Package: valtest
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Provide test fixtures for testing commonly found as part of validation
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Ellis Hughes
+Maintainer: Ellis Hughes <ellishughes@live.com>
+Description: This package extends some of the testing found in the testthat package
+   to be more user-friendly to validation and speed up the quality of testing.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: 
-    huxtable,
-    pharmaRTF,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 RoxygenNote: 7.1.1
